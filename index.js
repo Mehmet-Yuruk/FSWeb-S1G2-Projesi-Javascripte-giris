@@ -20,6 +20,13 @@ Aşağıdakileri yap:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
+const surucuYasi = 30;
+if (yas > 18) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
 /*
 Görev 1b - Değerler (puanlamaya dahil değildir)
 
@@ -31,7 +38,13 @@ Aşağıdakileri yap:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
-
+let firstValue = 25;
+let secondValue = 33;
+if (firstValue < secondValue) {
+  console.log(true);
+}
+let firstValue = 30;
+console.log(firstValue);
 /*
 Görev 1c - String bir değeri Number'a dönüştürün (puanlamaya dahil değildir)
 
@@ -42,6 +55,10 @@ Aşağıdakileri yap:
 
    İPUCU: Number metoduna bakabilirsin
 */
+let value = "1999";
+let yil = Number(value);
+console.log(yil);
+  
 
 /*
 Görev 1d - Çarpma
